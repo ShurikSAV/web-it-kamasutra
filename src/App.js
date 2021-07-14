@@ -4,14 +4,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <div className="App">
-        <ul>
-          <li>css</li>
-          <li>html</li>
-          <li>js</li>
-          <li>react</li>
-        </ul>
-      </div>
+      <Technologies />
     </div>
   );
 }
@@ -25,6 +18,17 @@ const Header = () => {
     </div>
   )
 }
-
+const Technologies = () => {
+  return (
+    <div>
+      <ul>
+        <li>css</li>
+        <li>html</li>
+        <li>js</li>
+        <li>react</li>
+      </ul>
+    </div>
+  )
+}
 
 export default App
