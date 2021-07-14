@@ -16,4 +16,15 @@ const App = () => {
   );
 }
 
+const Header = () => {
+  return (
+    <div>
+      <a>Home</a>
+      <a>New Feed</a>
+      <a>Messages</a>
+    </div>
+  )
+}
+
+
 export default App
