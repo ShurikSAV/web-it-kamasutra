@@ -3,7 +3,9 @@ import './App.css';
 const App = () => {
   return (
     <div>
-      <div>first div</div>
+      <div>
+        <Header />
+      </div>
       <div className="App">
         <ul>
           <li>css</li>
@@ -19,9 +21,9 @@ const App = () => {
 const Header = () => {
   return (
     <div>
-      <a>Home</a>
-      <a>New Feed</a>
-      <a>Messages</a>
+      <a href='#s'>Home</a>
+      <a href='#s'>New Feed</a>
+      <a href='#s'>Messages</a>
     </div>
   )
 }
