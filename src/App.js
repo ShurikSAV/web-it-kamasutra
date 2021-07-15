@@ -1,3 +1,6 @@
+import React from 'react';
+import Technologies from './technologies'
+import Header from './header'
 import './App.css';
 
 const App = () => {
@@ -7,28 +10,6 @@ const App = () => {
       <Technologies />
     </div>
   );
-}
-
-const Header = () => {
-  return (
-    <div>
-      <a href='#s'>Home</a>
-      <a href='#s'>New Feed</a>
-      <a href='#s'>Messages</a>
-    </div>
-  )
-}
-const Technologies = () => {
-  return (
-    <div>
-      <ul>
-        <li>css</li>
-        <li>html</li>
-        <li>js</li>
-        <li>react</li>
-      </ul>
-    </div>
-  )
 }
 
 export default App
