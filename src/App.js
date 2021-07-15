@@ -1,13 +1,12 @@
 import React from 'react';
-import Technologies from './header'
-//import Technologies from './technologies'
-//import Header from './header'
+import Technologies from './technologies'
+import Header from './header'
 import './App.css';
 
 const App = () => {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <Technologies />
     </div>
   );
