@@ -12,7 +12,7 @@
 # 2021-07-20
 
 [12. Уроки React JS (Разбивка на компоненты)](https://www.youtube.com/watch?v=00ZNuBIE-pM)
-[]()
+[13. Уроки React JS (git-репозиторий)](https://www.youtube.com/watch?v=6pAkynDPXEc)
 []()
 []()
 []()
