@@ -9,7 +9,7 @@
 [10. Уроки React JS (default опасность плагин auto import)](https://www.youtube.com/watch?v=TZUPCqfs8VU)
 [11. Уроки React JS (соц. сеть, шаг 1, вёрстка, grid)](https://www.youtube.com/watch?v=t6rAzhi3vjQ)
 
-# 2021-07-16
+# 2021-07-20
 
 [12. Уроки React JS (Разбивка на компоненты)](https://www.youtube.com/watch?v=00ZNuBIE-pM)
 []()
