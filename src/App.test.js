@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+test('test +',() => {
+  const a = 10
+  const b = 11
+
+  const res = a + b
+
+  expect(res).toBe(21)
+})
