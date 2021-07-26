@@ -22,4 +22,8 @@
 
 [15. Уроки React JS (структура папок, новые компоненты, улучшаем css)](https://www.youtube.com/watch?v=8VOuxijh9_s)
 
+# 2021-07-
+
+[16. Уроки React JS (props - важнейшая тема) - react курсы бесплатно](https://www.youtube.com/watch?v=-mDs48HB3II)
+
 []()
