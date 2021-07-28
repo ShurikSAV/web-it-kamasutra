@@ -30,4 +30,6 @@
 
 [17. Уроки React JS (остановочка "react за час, часть 1")](https://www.youtube.com/watch?v=Ps2TiA5dIKc)
 
+[18. Уроки React JS (страница Dialogs) - react курсы бесплатно](https://www.youtube.com/watch?v=IL1LTYDNAhk)
+
 []()
