@@ -26,6 +26,8 @@
 
 [16. Уроки React JS (props - важнейшая тема) - react курсы бесплатно](https://www.youtube.com/watch?v=-mDs48HB3II)
 
+# 2021-07-28
+
 [17. Уроки React JS (остановочка "react за час, часть 1")](https://www.youtube.com/watch?v=Ps2TiA5dIKc)
 
 []()
