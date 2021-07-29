@@ -40,7 +40,7 @@
 
 [21. Уроки React JS (Верстаем страницу Диалогов)](https://www.youtube.com/watch?v=vcGrFNXy3zk)
 
-[22. Уроки React JS (Route exact) ](https://www.youtube.com/watch?v=HfGD5xRIiMU)
+[22. Уроки React JS (Route exact)](https://www.youtube.com/watch?v=HfGD5xRIiMU)
 
 []()
 
