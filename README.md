@@ -38,4 +38,14 @@
 
 [20. Уроки React JS (NavLink)](https://www.youtube.com/watch?v=Wm62LRtxomk)
 
+[21. Уроки React JS (Верстаем страницу Диалогов)](https://www.youtube.com/watch?v=vcGrFNXy3zk)
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
 []()
