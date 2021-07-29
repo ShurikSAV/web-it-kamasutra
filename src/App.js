@@ -1,13 +1,13 @@
 import React from 'react';
+import {BrowserRouter, Route} from "react-router-dom";
 import './App.css'
 import Header from './components/header/header';
 import NavBar from './components/nav-bar/nav-bar';
 import Dialogs from "./components/Dialogs/Dialogs";
-import {BrowserRouter, Route} from "react-router-dom";
 import Profile from './components/profile/profile';
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
-import Settings from "./components/Music/Music";
+import Settings from "./components/Settings/Settings";
 
 const App = () => {
     return (
