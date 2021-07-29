@@ -5,6 +5,9 @@ import NavBar from './components/nav-bar/nav-bar';
 import Dialogs from "./components/Dialogs/Dialogs";
 import {BrowserRouter, Route} from "react-router-dom";
 import Profile from './components/profile/profile';
+import News from "./components/News/News";
+import Music from "./components/Music/Music";
+import Settings from "./components/Music/Music";
 
 const App = () => {
     return (
@@ -12,10 +15,12 @@ const App = () => {
             <div className='app-wrapper'>
                 <Header/>
                 <NavBar/>
-                {/*<Profile />*/}
                 <div className='app-wrapper-content'>
-                    <Route component={Dialogs}/>
-                    <Route component={Profile}/>
+                    <Route path='/dialogs' component={Dialogs}/>
+                    <Route path='/profile' component={Profile}/>
+                    <Route path='/news' component={News}/>
+                    <Route path='/music' component={Music}/>
+                    <Route path='/settings' component={Settings}/>
                 </div>
             </div>
         </BrowserRouter>

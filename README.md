@@ -30,7 +30,7 @@
 
 [17. Уроки React JS (остановочка "react за час, часть 1")](https://www.youtube.com/watch?v=Ps2TiA5dIKc)
 
-[18. Уроки React JS (страница Dialogs) - react курсы бесплатно](https://www.youtube.com/watch?v=IL1LTYDNAhk)
+[18. Уроки React JS (страница Settings) - react курсы бесплатно](https://www.youtube.com/watch?v=IL1LTYDNAhk)
 
 [19. Уроки React JS (route, browser-router, маршрутизация) - react курсы бесплатно](https://www.youtube.com/watch?v=5X5ZLWdAnt4)
 
