@@ -34,4 +34,8 @@
 
 [19. Уроки React JS (route, browser-router, маршрутизация) - react курсы бесплатно](https://www.youtube.com/watch?v=5X5ZLWdAnt4)
 
+# 2021-07-29
+
+[20. Уроки React JS (NavLink)](https://www.youtube.com/watch?v=Wm62LRtxomk)
+
 []()
