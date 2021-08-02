@@ -45,7 +45,7 @@
 
 [23. Уроки React JS (props для Диалогов)](https://www.youtube.com/watch?v=DnRvj9A_1ps)
 
-[]()
+[24. Уроки React JS (UI - BLL, выносим данные в сторону)](https://www.youtube.com/watch?v=M7wWqAsw_iE)
 
 []()
 
