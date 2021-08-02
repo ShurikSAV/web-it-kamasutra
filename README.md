@@ -43,7 +43,7 @@
 [22. Уроки React JS (Route exact)](https://www.youtube.com/watch?v=HfGD5xRIiMU)
 # 2021-08-02
 
-[]()
+[23. Уроки React JS (props для Диалогов)](https://www.youtube.com/watch?v=DnRvj9A_1ps)
 
 []()
 
