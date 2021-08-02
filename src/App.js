@@ -4,7 +4,7 @@ import './App.css'
 import Header from './components/header/header';
 import NavBar from './components/nav-bar/nav-bar';
 import Dialogs from "./components/Dialogs/Dialogs";
-import Profile from './components/profile/profile';
+import Profile from './components/profile/Profile';
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
