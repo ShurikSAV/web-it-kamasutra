@@ -41,11 +41,14 @@
 [21. Уроки React JS (Верстаем страницу Диалогов)](https://www.youtube.com/watch?v=vcGrFNXy3zk)
 
 [22. Уроки React JS (Route exact)](https://www.youtube.com/watch?v=HfGD5xRIiMU)
+
 # 2021-08-02
 
 [23. Уроки React JS (props для Диалогов)](https://www.youtube.com/watch?v=DnRvj9A_1ps)
 
 [24. Уроки React JS (UI - BLL, выносим данные в сторону)](https://www.youtube.com/watch?v=M7wWqAsw_iE)
+
+# 2021-08-03
 
 []()
 
