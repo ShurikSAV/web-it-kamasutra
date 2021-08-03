@@ -1,8 +1,8 @@
 import React from 'react';
-import s from './My-posts.module.css'
-import Post from "./Post/Post";
+import s from './my_posts.module.css'
+import Post from "./post/post";
 
-const MyPosts = () => {
+const My_posts = () => {
     let messageData = [
         {id: 1, name: 'Hi', likeCount:23},
         {id: 2, name: 'How is your ..', likeCount:1},
@@ -28,5 +28,5 @@ const MyPosts = () => {
     );
 }
 
-export default MyPosts;
+export default My_posts;
 

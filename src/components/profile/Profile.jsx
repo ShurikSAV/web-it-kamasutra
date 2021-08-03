@@ -1,13 +1,13 @@
 import React from 'react';
 //import s from './Profile.module.css'
-import MyPosts from "./My-posts/My-posts";
-import ProfileInfo from "./ProfileInfo/ProfileInfo";
+import My_posts from "./my_posts/my_posts";
+import Profile_info from "./profile_info/profile_info";
 
 const Profile = () => {
     return (
         <div>
-            <ProfileInfo/>
-            <MyPosts/>
+            <Profile_info/>
+            <My_posts/>
         </div>
     );
 }

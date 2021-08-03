@@ -1,8 +1,8 @@
 import React from 'react';
-import s from './ProfileInfo.module.css'
+import s from './profile_info.module.css'
 
 
-const ProfileInfo = () => {
+const Profile_info = () => {
     return (
         <div>
             <img
@@ -16,4 +16,4 @@ const ProfileInfo = () => {
     );
 }
 
-export default ProfileInfo;
+export default Profile_info;
