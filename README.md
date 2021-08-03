@@ -50,6 +50,6 @@
 
 # 2021-08-03
 
-[]()
+[25. Уроки React JS (метод массива - map)](https://www.youtube.com/watch?v=IG2I3j1vCfQ&t=1s)
 
 []()
