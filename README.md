@@ -54,7 +54,7 @@
 
 [26. Уроки React JS (структура проекта, ещё раз про ui - bll)](https://www.youtube.com/watch?v=9ic9dq7FLaM)
 
-[]()
+[27. Уроки React JS (component vs render, прокидываем props через Route)](https://www.youtube.com/watch?v=wNWKFyh34r0)
 
 []()
 
