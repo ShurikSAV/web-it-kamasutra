@@ -34,7 +34,16 @@ let state = {
             {id: 3, name: 'Sveta'}
         ]
     }
+}
 
+export let addPost = (postMessage) => {
+    let newPost = {
+        id: 10,
+        message: postMessage,
+        likeCount: 0
+    }
+    state.messagesPage.posts.push(newPost)
+    console.log('addPost',state.messagesPage.posts)
 }
 
 export default state;
