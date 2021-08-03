@@ -58,7 +58,7 @@
 
 [28. Уроки React JS (выносим данные в index.js)](https://www.youtube.com/watch?v=BygaoztCh94)
 
-[]()
+[29. Уроки React JS (упаковываем данные в state)](https://www.youtube.com/watch?v=GW5PwlzXBDc)
 
 []()
 
