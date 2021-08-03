@@ -8,7 +8,9 @@ const My_posts = (props) => {
     let newPostElement = React.createRef()
 
     let addPost = () => {
-        props.addPost(newPostElement.current.value, props.posts)
+        let text = newPostElement.current.value
+        props.addPost(text)
+        newPostElement.current.value = ''
     }
 
     return (
@@ -23,7 +25,7 @@ const My_posts = (props) => {
                 </div>
             </div>
             <div className={s.posts}>
-                {posts.map(m => <Post message={m.name} likeCount={m.likeCount}/>)}
+                {posts.map(m => <Post message={m.message} likeCount={m.likeCount}/>)}
             </div>
         </div>
     );
