@@ -56,7 +56,7 @@
 
 [27. Уроки React JS (component vs render, прокидываем props через Route)](https://www.youtube.com/watch?v=wNWKFyh34r0)
 
-[]()
+[28. Уроки React JS (выносим данные в index.js)](https://www.youtube.com/watch?v=BygaoztCh94)
 
 []()
 
