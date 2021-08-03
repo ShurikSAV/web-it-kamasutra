@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter, Route} from "react-router-dom";
 import './App.css'
 import Header from './components/header/header';
-import Nav_bar from './components/nav-bar/nav_bar';
+import NavBar from './components/nav-bar/nav_bar';
 import Dialogs from "./components/dialogs/dialogs";
 import Profile from './components/profile/profile';
 import News from "./components/news/news";
@@ -14,7 +14,7 @@ const App = (props) => {
         <BrowserRouter>
             <div className='app-wrapper'>
                 <Header/>
-                <Nav_bar/>
+                <NavBar/>
                 <div className='app-wrapper-content'>
                     <Route path='/dialogs' render = {() =>
                         <Dialogs
@@ -23,8 +23,8 @@ const App = (props) => {
                         /> }/>
                     <Route exact path='/profile' render = { () =>
                         <Profile
-                            profileInfo = {props.profile.profileInfo}
-                            myPosts = {props.profile.myPosts}
+                            userName = {props.profile.userName}
+                            posts = {props.profile.posts}
                         />}/>
                     <Route path='/news' render = { () => <News/>}/>
                     <Route path='/music' render = { () => <Music/>}/>

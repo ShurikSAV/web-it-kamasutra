@@ -3,7 +3,7 @@ import s from './my_posts.module.css'
 import Post from "./post/post";
 
 const My_posts = (props) => {
-    let messageData2 = props.messageData
+    let messageData2 = props.posts
 
     return (
         <div className={s.postsBlock}>
