@@ -52,7 +52,7 @@
 
 [25. Уроки React JS (метод массива - map)](https://www.youtube.com/watch?v=IG2I3j1vCfQ&t=1s)
 
-[]()
+[26. Уроки React JS (структура проекта, ещё раз про ui - bll)](https://www.youtube.com/watch?v=9ic9dq7FLaM)
 
 []()
 
