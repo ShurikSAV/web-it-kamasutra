@@ -26,6 +26,9 @@ let state = {
         ],
 
         userName: "ava + description"
+    },
+    sideBar: {
+
     }
 
 }
