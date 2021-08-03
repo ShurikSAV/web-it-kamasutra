@@ -2,7 +2,7 @@ import React from 'react';
 import s from './profile_info.module.css'
 
 
-const Profile_info = () => {
+const Profile_info = (props) => {
     return (
         <div>
             <img
@@ -10,7 +10,7 @@ const Profile_info = () => {
 
             </img>
             <div className={s.descriptionBlock}>
-                ava + description
+                {props.userName}
             </div>
         </div>
     );
