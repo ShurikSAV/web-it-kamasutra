@@ -60,7 +60,7 @@
 
 [29. Уроки React JS (упаковываем данные в state)](https://www.youtube.com/watch?v=GW5PwlzXBDc)
 
-[]()
+[30. Уроки React JS (остановочка "react за час, часть 2")](https://www.youtube.com/watch?v=5js6RxcmxOA)
 
 []()
 
