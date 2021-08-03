@@ -27,8 +27,12 @@ let state = {
 
         userName: "ava + description"
     },
-    sideBar: {
-
+    navBar: {
+        frends: [
+            {id: 1,name: "sasha"},
+            {id: 2,name: "peter"},
+            {id: 3,name: "dasha"}
+        ]
     }
 
 }

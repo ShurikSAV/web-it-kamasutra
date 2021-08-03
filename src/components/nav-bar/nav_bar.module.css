@@ -16,3 +16,15 @@
   color: aqua;
 }
 
+.frends {
+  margin-top: 30px;
+}
+.frend {
+  padding: 10px;
+  color: blueviolet;
+}
+
+.activeFrend{
+  padding: 10px;
+  color: crimson;
+}

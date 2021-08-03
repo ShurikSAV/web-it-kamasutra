@@ -2,7 +2,9 @@ import React from 'react';
 import s from './nav_bar.module.css'
 import {NavLink} from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = (props) => {
+    let frends = props.frends
+
     return (
         <nav className={s.nav}>
             <div className={s.item}>
@@ -20,6 +22,10 @@ const NavBar = () => {
             <div className={s.item}>
                 <NavLink activeClassName={s.activeLink} to="/settings">Settings</NavLink>
             </div>
+            <div className={s.frends}>
+                {frends.map( f => <NavLink className={s.frend}  activeClassName={s.activeFrend} to={`/dialogs/${f.id}`}>{f.name}</NavLink> )}
+            </div>
+
         </nav>
     );
 }
