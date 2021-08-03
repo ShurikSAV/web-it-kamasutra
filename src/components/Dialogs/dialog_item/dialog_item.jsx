@@ -6,8 +6,8 @@ const DialogItem = (props) => {
     let patch = '/dialogs/' + props.id
 
     return (
-        <div className={s.dialogsItems + ' ' + s.activ}>
-            <NavLink to={patch}>{props.name}</NavLink>
+        <div className={s.dialogsItems}>
+            <NavLink to={patch} activeClassName={s.activeLink}>{props.name}</NavLink>
         </div>
     )
 }

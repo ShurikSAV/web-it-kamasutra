@@ -62,7 +62,9 @@
 
 [30. Уроки React JS (остановочка "react за час, часть 2")](https://www.youtube.com/watch?v=5js6RxcmxOA)
 
-[]()
+# 2021-08-
+
+[31. Уроки React JS - onClick, ref, VirtualDOM](https://www.youtube.com/watch?v=VkHcOHWSaNQ)
 
 []()
 
