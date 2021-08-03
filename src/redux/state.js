@@ -29,9 +29,9 @@ let state = {
     },
     navBar: {
         frends: [
-            {id: 1,name: "sasha"},
-            {id: 2,name: "peter"},
-            {id: 3,name: "dasha"}
+            {id: 1, name: 'Dimych'},
+            {id: 2, name: 'Andrey'},
+            {id: 3, name: 'Sveta'}
         ]
     }
 

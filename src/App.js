@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route} from "react-router-dom";
+import {Route} from "react-router-dom";
 import './App.css'
 import Header from './components/header/header';
 import NavBar from './components/nav-bar/nav_bar';
@@ -11,7 +11,6 @@ import Settings from "./components/settings/settings";
 
 const App = (props) => {
     return (
-        <BrowserRouter>
             <div className='app-wrapper'>
                 <Header/>
                 <NavBar {...props.navBar}/>
@@ -27,7 +26,6 @@ const App = (props) => {
                     <Route path='/settings' render = { () => <Settings/>}/>
                 </div>
             </div>
-        </BrowserRouter>
     )
 }
 
