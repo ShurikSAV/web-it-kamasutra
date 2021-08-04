@@ -70,7 +70,7 @@
 
 [33. Уроки React JS - добавление поста на стену (зачатки FLUX-концепции) - 12мин](https://www.youtube.com/watch?v=H6EEnnLvFYo)
 
-[]()
+[34. Уроки React JS - Вынос мозга (FLUX-круговорот на каждый символ)](https://www.youtube.com/watch?v=bpEy10oJSCg)
 
 []()
 
