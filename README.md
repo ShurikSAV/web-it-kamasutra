@@ -66,9 +66,9 @@
 
 [32. Уроки React JS - прокидываем callback через props](https://www.youtube.com/watch?v=OtMEWJ-3d18)
 
-[33. Уроки React JS - добавление поста на стену (зачатки FLUX-концепции) - 12мин](https://www.youtube.com/watch?v=H6EEnnLvFYo)
-
 # 2021-08-
+
+[33. Уроки React JS - добавление поста на стену (зачатки FLUX-концепции) - 12мин](https://www.youtube.com/watch?v=H6EEnnLvFYo)
 
 []()
 
