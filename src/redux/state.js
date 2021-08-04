@@ -19,14 +19,14 @@ let state = {
         ]
     },
 
-    messagesPage: {
+    profilePage: {
+        newPostText: "it",
         posts: [
             {id: 1, message: 'Hi', likeCount: 23},
             {id: 2, message: 'How is your ..', likeCount: 1},
             {id: 3, message: 'ok', likeCount: 231},
             {id: 4, message: 'ok', likeCount: 238}
         ],
-
         userName: "ava + description"
     },
     navBar: {
@@ -38,13 +38,21 @@ let state = {
     }
 }
 
-export let addPost = (postMessage) => {
+export let addPost = () => {
     let newPost = {
         id: 10,
-        message: postMessage,
+        message: state.profilePage.newPostText,
         likeCount: 0
     }
-    state.messagesPage.posts.push(newPost)
+    state.profilePage.posts.push(newPost)
+    state.profilePage.newPostText = ''
+    rerenderEntireTree(state)
+
+}
+
+export let updateNewPostText = (postMessage) => {
+
+    state.profilePage.newPostText = postMessage
     rerenderEntireTree(state)
 }
 
