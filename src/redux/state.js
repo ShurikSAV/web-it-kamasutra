@@ -35,11 +35,11 @@ let store = {
             ]
         }
     },
-    getState() {
-        return this._state
-    },
     _callSubscriber() {
         console.log('Stated changed')
+    },
+    getState() {
+        return this._state
     },
     addPost() {
         let newPost = {
