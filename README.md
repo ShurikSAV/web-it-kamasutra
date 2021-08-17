@@ -79,11 +79,17 @@
 # 2021-08-
 
 [37. Уроки, Курс React JS - store, state, ООП, рефакторинг](https://www.youtube.com/watch?v=Bq_tmt-hRn0)
+
+[38. Уроки, Курс React JS - dispatch и action](https://www.youtube.com/watch?v=AyCBG4LcUSA)
+
 []()
+
 []()
+
 []()
+
 []()
-[]()
+
 []()
 []()
 []()
