@@ -66,12 +66,28 @@
 
 [32. Уроки React JS - прокидываем callback через props](https://www.youtube.com/watch?v=OtMEWJ-3d18)
 
-# 2021-08-
-
 [33. Уроки React JS - добавление поста на стену (зачатки FLUX-концепции) - 12мин](https://www.youtube.com/watch?v=H6EEnnLvFYo)
 
 [34. Уроки React JS - Вынос мозга (FLUX-круговорот на каждый символ)](https://www.youtube.com/watch?v=bpEy10oJSCg)
 
+# 2021-08-17
+
+[35. Уроки, Курс React JS - callback, subscribe, observer](https://www.youtube.com/watch?v=iN6QXbHedQc)
+
 []()
 
+# 2021-08-
+
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
 []()
