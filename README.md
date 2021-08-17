@@ -74,7 +74,7 @@
 
 [35. Уроки, Курс React JS - callback, subscribe, observer](https://www.youtube.com/watch?v=iN6QXbHedQc)
 
-[]()
+[36. Уроки, Курс React JS - про ООП поверхностно (зачем нам объекты)](https://www.youtube.com/watch?v=s1n24A2Xr0M)
 
 # 2021-08-
 
