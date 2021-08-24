@@ -76,17 +76,17 @@
 
 [36. Уроки, Курс React JS - про ООП поверхностно (зачем нам объекты)](https://www.youtube.com/watch?v=s1n24A2Xr0M)
 
-# 2021-08-
-
 [37. Уроки, Курс React JS - store, state, ООП, рефакторинг](https://www.youtube.com/watch?v=Bq_tmt-hRn0)
 
-5-56
+# 2021-08-24
+
 [38. Уроки, Курс React JS - dispatch и action](https://www.youtube.com/watch?v=AyCBG4LcUSA)
 
 []()
 
 []()
 
+# 2021-08-
 []()
 
 []()

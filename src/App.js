@@ -21,8 +21,8 @@ const App = (props) => {
                     <Route exact path='/profile' render = {() =>
                         <Profile
                             {...props.profilePage}
-                            addPost={props.addPost}
-                            updateNewPostText = {props.updateNewPostText}/>}
+                            dispatch = {props.dispatch}
+                        />}
                     />
                     <Route path='/news' render = { () => <News/>}/>
                     <Route path='/music' render = { () => <Music/>}/>
