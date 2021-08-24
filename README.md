@@ -82,7 +82,7 @@
 
 [38. Уроки, Курс React JS - dispatch и action](https://www.youtube.com/watch?v=AyCBG4LcUSA)
 
-[]()
+[39 - Уроки, Курс React JS - action creator, action type](https://www.youtube.com/watch?v=EW8cEDyYAYM)
 
 []()
 
