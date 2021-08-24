@@ -84,7 +84,7 @@
 
 [39 - Уроки, Курс React JS - action creator, action type](https://www.youtube.com/watch?v=EW8cEDyYAYM)
 
-[40 - React JS Практика - добавление Сообщения](https://www.youtube.com/watch?v=TUcn_vPHfxU)
+[40 - React JS Практика - добавление  Сообщения](https://www.youtube.com/watch?v=TUcn_vPHfxU)
 
 # 2021-08-
 []()
