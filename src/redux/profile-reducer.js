@@ -2,7 +2,6 @@ const ADD_POST = 'ADD_POST';
 const UPDATE_NEW_POST = 'UPDATE_NEW_POST';
 
 let initnalState = {
-    profilePage: {
         newPostText: "it",
         posts: [
             {id: 1, message: 'Hi', likeCount: 23},
@@ -11,7 +10,6 @@ let initnalState = {
             {id: 4, message: 'ok', likeCount: 238}
         ],
         userName: "ava + description"
-    }
 }
 
 const profileReducer = (state = initnalState, action) => {
@@ -28,6 +26,8 @@ const profileReducer = (state = initnalState, action) => {
         case UPDATE_NEW_POST:
             state.newPostText = action.newText
             break;
+        default:
+            return state;
     }
 
     return state;

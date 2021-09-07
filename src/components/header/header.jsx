@@ -1,17 +1,16 @@
 import React from 'react';
-import s from './header.module.css'
-
+import styles from './header.module.css'
 
 
 const Header = () => {
+    console.log('Header',styles)
   return (
-      <header className={s.header}>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4MuXyd8KEmHlFuKFbMftU-rcm3zcORkaQCw&usqp=CAU'></img>
+      <header className={styles.header}>
+        <img alt='' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4MuXyd8KEmHlFuKFbMftU-rcm3zcORkaQCw&usqp=CAU'/>
         <p>Шапка</p>
         <p>Шапка</p>
       </header>
-  );
-   
+  )
 }
 
 export default Header;

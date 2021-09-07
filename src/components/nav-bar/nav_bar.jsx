@@ -23,7 +23,7 @@ const NavBar = (props) => {
                 <NavLink activeClassName={s.activeLink} to="/settings">Settings</NavLink>
             </div>
             <div className={s.frends}>
-                {frends.map( f => <NavLink className={s.frend}  activeClassName={s.activeFrend} to={`/dialogs/${f.id}`}>{f.name}</NavLink> )}
+                {frends.map( f => <NavLink key={f.id} className={s.frend}  activeClassName={s.activeFrend} to={`/dialogs/${f.id}`}>{f.name}</NavLink> )}
             </div>
 
         </nav>

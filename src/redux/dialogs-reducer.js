@@ -2,7 +2,6 @@ const UPDATE_NEW_MESSAGE_BODY = 'UPDATE_NEW_MESSAGE_BODY';
 const SEND_MESSAGE = 'SEND_MESSAGE';
 
 let initnalState = {
-    dialogsPage: {
         dialogs: [
             {id: 1, name: 'Dimych'},
             {id: 2, name: 'Andrey'},
@@ -13,13 +12,13 @@ let initnalState = {
             {id: 7, name: 'SAV'}
         ],
         messages: [
-            {id: 1, message: 'Hi'},
-            {id: 2, message: 'How is your ..'},
-            {id: 3, message: 'ok'},
-            {id: 4, message: 'ok'}
+            {id: 1, message: 'Hi', foto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw9cnEvZ98kadKb7ZIhW20sXOTNVlEsH1q4Q&usqp=CAU'},
+            {id: 2, message: 'How is your ..', foto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw9cnEvZ98kadKb7ZIhW20sXOTNVlEsH1q4Q&usqp=CAU'},
+            {id: 3, message: 'ok', foto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw9cnEvZ98kadKb7ZIhW20sXOTNVlEsH1q4Q&usqp=CAU'},
+            {id: 4, message: 'ok', foto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw9cnEvZ98kadKb7ZIhW20sXOTNVlEsH1q4Q&usqp=CAU'}
         ],
         newMessageBody: ''
-    }
+
 }
 
 const dialogsReducer = (state = initnalState, action) => {
@@ -37,6 +36,8 @@ const dialogsReducer = (state = initnalState, action) => {
             state.newMessageBody = ''
             state.messages.push(messages)
             break;
+        default:
+            return state;
     }
 
     return state;

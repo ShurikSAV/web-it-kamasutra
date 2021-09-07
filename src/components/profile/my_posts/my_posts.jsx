@@ -3,9 +3,6 @@ import s from './my_posts.module.css'
 import Post from "./post/post";
 import {addPostCreater, updateNewPostTextCreater} from "../../../redux/profile-reducer";
 
-
-
-
 const My_posts = (props) => {
     let posts = props.posts
 
@@ -39,7 +36,7 @@ const My_posts = (props) => {
                 </div>
             </div>
             <div className={s.posts}>
-                {posts.map(m => <Post message={m.message} likeCount={m.likeCount}/>)}
+                {posts.map(m => <Post key={m.id} message={m.message} likeCount={m.likeCount}/>)}
             </div>
         </div>
     );
