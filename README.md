@@ -86,15 +86,21 @@
 
 [40 - React JS Практика - добавление  Сообщения](https://www.youtube.com/watch?v=TUcn_vPHfxU)
 
-# 2021-08-
+# 2021-09-07
 [41 - React JS Практика - reducer (почти redux)](https://www.youtube.com/watch?v=GPabDsMyceU)
 
+[42 - React JS Практика - Redux](https://www.youtube.com/watch?v=IUEkRTov_E4)
+
 []()
 
 []()
+
 []()
+
 []()
+
 []()
+
 []()
-[]()
+
 []()
