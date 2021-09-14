@@ -91,7 +91,9 @@
 
 [42 - React JS Практика - Redux](https://www.youtube.com/watch?v=IUEkRTov_E4)
 
-[]()
+# 2021-09-14
+
+[43 React JS Практика - container component (контейнерная компонента)](https://www.youtube.com/watch?v=cbnExb3GSFM)
 
 []()
 
