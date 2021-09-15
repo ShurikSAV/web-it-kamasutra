@@ -23,13 +23,15 @@ const App = (props) => {
                    render = {() =>
                         <Dialogs
                             {...props.dialogsPage}
+                            store = {props.store}
                             dispatch = {props.dispatch}
                         />
                     }
                 />
                 <Route exact path='/profile' render = {() =>
                     <Profile
-                        {...props.profilePage}
+                        profilePage = {props.profilePage}
+                        store = {props.store}
                         dispatch = {props.dispatch}
                     />}
                 />

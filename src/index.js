@@ -13,6 +13,7 @@ let rerenderEntireTree = (state) => {
             <BrowserRouter>
                 <App
                     {...state}
+                    store = {store}
                     dispatch = {store.dispatch.bind(store)}
                 />
             </BrowserRouter>
@@ -22,7 +23,6 @@ let rerenderEntireTree = (state) => {
 }
 
 rerenderEntireTree(store.getState())
-
 reportWebVitals();
 
 store.subscribe(() => {
