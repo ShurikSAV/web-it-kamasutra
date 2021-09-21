@@ -1,6 +1,9 @@
 import React from 'react';
-import s from './profile_info.module.css'
+import './profile_info.css'
 
+let s = {
+    descriptionBlock: 'descriptionBlock'
+}
 
 const Profile_info = (props) => {
     return (

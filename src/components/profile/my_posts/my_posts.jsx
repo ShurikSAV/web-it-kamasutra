@@ -1,7 +1,12 @@
 import React from 'react';
-import s from './my_posts.module.css'
+import './my_posts.css'
 import Post from "./post/post";
 import {addPostCreater, updateNewPostTextCreater} from "../../../redux/profile-reducer";
+
+let s = {
+    postsBlock: 'postsBlock',
+    posts: 'posts'
+}
 
 const My_posts = (props) => {
     let posts = props.posts
@@ -13,7 +18,7 @@ const My_posts = (props) => {
     }
 
     let onPostChange = () => {
-       props.updateNewPostTextCreater(text)
+       props.updateNewPostTextCreater()
     }
 
     return (

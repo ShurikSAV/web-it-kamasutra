@@ -1,29 +1,29 @@
 import React from 'react';
-import s from './nav_bar.module.css'
+import './nav_bar.css'
 import {NavLink} from "react-router-dom";
 
 const NavBar = (props) => {
     let frends = props.frends
 
     return (
-        <nav className={s.nav}>
-            <div className={s.item}>
-                <NavLink activeClassName={s.activeLink} to="/profile">Profile</NavLink>
+        <nav className='nav'>
+            <div className='item'>
+                <NavLink activeClassName='activeLink' to="/profile">Profile</NavLink>
             </div>
-            <div className={s.item}>
-                <NavLink activeClassName={s.activeLink} to="/dialogs">Messages</NavLink>
+            <div className='item'>
+                <NavLink activeClassName='activeLink' to="/dialogs">Messages</NavLink>
             </div>
-            <div className={s.item}>
-                <NavLink activeClassName={s.activeLink} to="/news">News</NavLink>
+            <div className='item'>
+                <NavLink activeClassName='activeLink' to="/news">News</NavLink>
             </div>
-            <div className={s.item}>
-                <NavLink activeClassName={s.activeLink} to="/music">Music</NavLink>
+            <div className='item'>
+                <NavLink activeClassName='activeLink' to="/music">Music</NavLink>
             </div>
-            <div className={s.item}>
-                <NavLink activeClassName={s.activeLink} to="/settings">Settings</NavLink>
+            <div className='item'>
+                <NavLink activeClassName='activeLink' to="/settings">Settings</NavLink>
             </div>
-            <div className={s.frends}>
-                {frends.map( f => <NavLink key={f.id} className={s.frend}  activeClassName={s.activeFrend} to={`/dialogs/${f.id}`}>{f.name}</NavLink> )}
+            <div className='frends'>
+                {frends.map( f => <NavLink key={f.id} className='frend'  activeClassName='activeFrend' to={`/dialogs/${f.id}`}>{f.name}</NavLink> )}
             </div>
 
         </nav>

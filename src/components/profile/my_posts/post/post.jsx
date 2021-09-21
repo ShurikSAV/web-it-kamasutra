@@ -1,5 +1,9 @@
 import React from 'react';
-import s from './post.module.css'
+import './post.css'
+
+let s = {
+    item: 'item'
+}
 
 const Post = (props) => {
     return (
