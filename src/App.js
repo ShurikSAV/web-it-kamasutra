@@ -20,7 +20,7 @@ const App = (props) => {
                     path='/dialogs'
                    render = {() =>
                         <Dialogs
-                            {...props.dialogsPage}
+                            dialogsPage = {props.dialogsPage}
                             store = {props.store}
                             dispatch = {props.dispatch}
                         />
